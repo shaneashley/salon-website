@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+}
+
+    nav {
+        background-color: blue;
+    }
+   
+
+
+
+button {
+    padding: 10px;
+    border-radius: 15%;
+}
+
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1470259078422-826894b933aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: 'DM Serif Display', serif;
+    text-shadow: 3px 3px white;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.hero__article {
+    background-color: black;
+    color: white;
+    padding: 4%;
+   margin-right: -30%;
+   margin-top: 5%;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+   padding: 5%;
+    flex-wrap: wrap;
+}
+
+.services > article {
+  width: 30%;
+    margin: 1%;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.about__us {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+
+.aboutOne, .aboutTwo{
+    width: 90%;
+    padding: 2% 5%;
+    margin: 0 5%;
+    text-align: center;
+}
+
+
+.aboutTwo > img {
+    width: 500px;
+    height: auto;
+}
+
+.meetOurStaff {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    flex-wrap: wrap;
+}
+.meetOurStaff + section {
+padding: 25px;
+}
+
+.discount {
+    background-image: url("https://images.unsplash.com/photo-1586266195531-76cfa365cb43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Nanum Myeongjo', serif;
+}
+
+.discount {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgba(136, 136, 136, 0.185);
+    padding: 2%;
+}
+ .meetOurStaff__img {
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.meetOurStaff    > section {
+    padding: 4%;
+}
+
+.meetOurStaff, article {
+  text-align: center !important;
+    color: black;
+    background-color: rgba(136, 136, 136, 0.185);
+   justify-content: center;
+     align-items:center ;
+}
+
+
+
+.lookbook__text {
+    text-align: center;
+    
+    padding: 5% 0%;
+  
+}
+
+.lookbook__imgs {
+
+    padding: 0 5%;
+    margin: 0% 25% 5%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.lookbook__imgs > img {
+    padding: 5px;
+    height: 400px;
+    width: auto;
+
+    justify-content: center;
+     align-items:center ;
+}
+
